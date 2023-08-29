@@ -13,6 +13,15 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'cyan': 'hsl(180, 66%, 49%)',
+        'red': 'hsl(0, 87%, 67%)',
+        'Dark Violet': 'hsl(257, 27%, 26%)',
+        'Gray': 'hsl(0, 0%, 75%)',
+        'Grayish Violet': 'hsl(257, 7%, 63%)',
+        'Very Dark Blue': 'hsl(255, 11%, 22%)',
+        'Very Dark Violet': 'hsl(260, 8%, 14%)',
+      },
     },
   },
   plugins: [],
