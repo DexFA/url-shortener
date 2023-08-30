@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Button from "../Button";
 
 const Header = () => {
 	return (
@@ -24,9 +25,7 @@ const Header = () => {
 						<Link href="#" className="text-Gray hover:text-VeryDarkViolet">
 							Login
 						</Link>
-						<button className="text-white bg-cyan hover:bg-cyanHover py-2 px-4 rounded-full">
-							<Link href="#">Sign Up</Link>
-						</button>
+						<Button buttonText="Sign Up" />
 					</div>
 				</div>
 			</div>

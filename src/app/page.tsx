@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Header from "../components/header/header";
 import { Poppins } from "next/font/google";
+import Banner from "@/components/banner/Banner";
 
 const poppins = Poppins({
 	weight: ["500", "700"],
@@ -11,7 +11,9 @@ export default function Home() {
 	return (
 		<div className={poppins.className}>
 			<Header />
-			<main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+			<main>
+				<Banner />
+			</main>
 		</div>
 	);
 }
